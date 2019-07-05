@@ -174,12 +174,12 @@ class CraftableInstall extends Command
             '// here you can add your own directories',
             '// here you can add your own directories
         // base_path(\'routes\'), // uncomment if you have translations in your routes i.e. you have localized URLs
-        base_path(\'vendor/brackets/admin-auth/src\'),
-        base_path(\'vendor/brackets/admin-auth/resources\'),');
+        base_path(\'vendor/craftable/admin-auth/src\'),
+        base_path(\'vendor/craftable/admin-auth/resources\'),');
 
         $this->call('admin-translations:scan-and-save', [
             'paths' => array_merge(config('admin-translations.scanned_directories'),
-                ['vendor/brackets/admin-auth/src', 'vendor/brackets/admin-auth/resources']),
+                ['vendor/craftable/admin-auth/src', 'vendor/craftable/admin-auth/resources']),
         ]);
     }
 
