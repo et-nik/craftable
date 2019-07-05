@@ -36,7 +36,7 @@
         "craftable/admin-translations": "^3.0",
         "craftable/advanced-logger": "^1.0",
         "craftable/translatable": "^1.0",
-        "craftable/media": "^3.0",
+        "craftable/media": "^2.0",
         "spatie/laravel-permission": "^2.5",
         "spatie/laravel-backup": "^5.0",
         "maatwebsite/excel": "^3.1"
