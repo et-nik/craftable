@@ -20,7 +20,7 @@ class CraftableInstall extends Command
      *
      * @var string
      */
-    protected $description = 'Install a Craftable (brackets/craftable) instance';
+    protected $description = 'Install a Craftable (craftable/craftable) instance';
 
     /**
      * Password for generated default admin
