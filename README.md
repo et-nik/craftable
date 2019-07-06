@@ -65,14 +65,15 @@ Craftable uses Laravel so you should check out its requirements too. It is compa
 - https://laravel.com/docs/5.5/installation#server-requirements
 - https://laravel.com/docs/5.6/installation#server-requirements
 - https://laravel.com/docs/5.7/installation#server-requirements
+- https://laravel.com/docs/5.8/installation#server-requirements
 
 ## Installation ##
 
 ### New Craftable project ###
 
-If you want to start on fresh Laravel, you can use our `brackets/craftable-installer` that do all the tricks for you. Let's install it globally:
+If you want to start on fresh Laravel, you can use our `craftable/craftable-installer` that do all the tricks for you. Let's install it globally:
 ```bash
-composer global require "brackets/craftable-installer"
+composer global require "craftable/craftable-installer"
 ```
 
 Create an empty database of your choice (PostgreSQL or MySQL).
@@ -97,8 +98,8 @@ Command is going to generate and **print the password for the default administra
 Or alternatively, you can use your existing Laravel 5.5 application. Start with requiring these two main packages:
 
 ```bash
-composer require brackets/craftable
-composer require --dev brackets/admin-generator
+composer require craftable/craftable
+composer require --dev craftable/admin-generator
 ```
 
 To install this package use:
